@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>callfunc</title>
+</head>
+<body>
+	<h2>Function的所有参数都是字符串</h2>
+	<h2>最好不要用Function，因为非常慢</h2>
+	<script>
+		function callAnotherFunc(fnFunction,vArgument){
+			fnFunction(vArgument);
+		}
+		var doAdd = new Function('iNum', "alert(iNum+10)");
+		callAnotherFunc(doAdd, 10);
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>typeof</title>
+</head>
+<body>
+	<h2>typeof对数组返回object,因为数组属于对象</h2>
+	<h2>未初始化的变量返回undefined</h2>
+	<p id="demo"></p>
+	<script>
+		var cars;
+		document.getElementById("demo").innerHTML = 
+		typeof 0 + "<br>" +
+		typeof "a" + "<br>" +
+		typeof "3.14" + "<br>" +
+		typeof "bcd" + "<br>" +
+		typeof cars;
+	</script>
+
+</body>
+</html>

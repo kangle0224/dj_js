@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>func-arguments</title>
+</head>
+<body>
+	<h2>arguments相当于python中的sys.argv，使用arguments时，无需指出参数名</h2>
+	<h2>arguments.length获取参数个数</h2>
+	<h2>ECMAScript 不会验证传递给函数的参数个数是否等于函数定义的参数个数</h2>
+	<script>
+		function sayHi(){
+			alert(arguments.length);
+			if (arguments[0] =='bye'){
+				return;
+			}
+		}
+	</script>
+
+</body>
+</html>

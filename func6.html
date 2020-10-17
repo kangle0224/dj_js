@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>create obj</title>
+</head>
+<body>
+	<h2>this代表的是拥有fullName函数的对象person</h2>
+	<p id="demo"></p>
+	<script>
+		var person = {
+			firstName: 'bill',
+			lastName: 'gates',
+			id: 123,
+			fullName: function(){
+				return this.firstName+' '+this.lastName;
+			}
+		}
+		document.getElementById('demo').innerHTML = person.fullName();
+	</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>event</title>
+</head>
+<body>
+	<h1>js事件</h1>
+	<button onclick="nowTime()">现在时间是？</button>
+	<p id="demo"></p>
+	<script>
+		function nowTime(){
+			document.getElementById('demo').innerHTML = Date();
+		}
+	</script>
+</body>
+</html>

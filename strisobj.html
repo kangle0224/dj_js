@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>字符串是对象</title>
+</head>
+<body>
+	<h1>js str</h1>
+	<p>不要把字符串创建成对象，因为速度很慢，也可能产生其他意想不到的结果</p>
+	<p id="demo"></p>
+	
+	<script>
+		var x = "bill";
+		var y = new String("bill");
+		document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>replace2</title>
+</head>
+<body>
+	<p>replace不改变原来的字符串，返回新的字符串，对大小写不敏感使用/i</p>
+	<p>正则表达式不带引号</p>
+	<p id="demo"></p>
+	<script>
+		var x = "please visit microsoft";
+		var n = x.replace(/microsoft/i, "w3school");
+		document.getElementById("demo").innerHTML = n;
+	</script>
+
+</body>
+</html>

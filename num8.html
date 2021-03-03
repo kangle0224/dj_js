@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>infinity</title>
+</head>
+<body>
+	<p>Infinity或者-Infinity是表示无穷大</p>
+	<p id="demo"></p>
+	<script>
+		var myNum = 2;
+		var txt = "";
+		while (myNum != Infinity) {
+			myNum = myNum * myNum;
+			txt = txt + myNum + "<br>";
+		}
+		document.getElementById("demo").innerHTML = txt;
+	</script>
+</body>
+</html>

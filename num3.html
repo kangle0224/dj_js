@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>num3</title>
+</head>
+<body>
+	<p>js做字符串计算时会将字符串转为数字,只限于乘除和减法，不包括加法</p>
+	<p>加法是级联</p>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+	<p id="demo3"></p>
+	<p id="demo4"></p>
+	<script>
+		var x = "100";
+		var y = "10";
+		var z = x /y;
+		document.getElementById("demo1").innerHTML = z;
+		document.getElementById("demo2").innerHTML = x-y;
+		document.getElementById("demo3").innerHTML = x*y;
+		document.getElementById("demo4").innerHTML = x+y;
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>数值可以是对象</title>
+</head>
+<body>
+	<p>不建议使用对象创建数值，因为会产生奇怪的对象</p>
+	<p id="demo"></p>
+	<script>
+		var x = 123;
+		var y = new Number(123);
+		document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
+	</script>
+
+</body>
+</html>

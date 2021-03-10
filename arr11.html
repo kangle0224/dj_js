@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arr11</title>
+</head>
+<body>
+	<h1>js array</h1>
+	<p>ie8 之前的不支持Array.forEach()</p>
+	<p id="demo"></p>
+	<script>
+		var fruits, text;
+		fruits = ["banana", "orange", "apple"];
+		text = "<ul>";
+		fruits.forEach(myFunction);
+		text += "</ul>";
+		document.getElementById("demo").innerHTML = text;
+
+		function myFunction(value) {
+			text += "<li>" + value + "</li>";
+		}
+	</script>
+
+</body>
+</html>

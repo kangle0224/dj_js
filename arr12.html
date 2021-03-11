@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arr12</title>
+</head>
+<body>
+	<h1>给数组添加元素</h1>
+	<button onclick="myFunction()">向数组追加新元素</button>
+	<p id="demo"></p>
+	<script>
+		var fruits = ["banana", "apple", "orange"];
+		document.getElementById("demo").innerHTML = fruits;
+		function myFunction() {
+			fruits.push("lemon");
+			document.getElementById("demo").innerHTML = fruits;
+		}
+		
+
+	</script>
+</body>
+</html>

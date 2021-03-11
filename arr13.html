@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arr13 </title>
+</head>
+<body>
+	<h1>使用length向数组中添加元素</h1>
+	<button onclick="myFunction()">添加元素</button>
+	<p id="demo"></p>
+	<script>
+		var fruits = ["apple", "banana", "orange"];
+		document.getElementById("demo").innerHTML = fruits;
+
+		function myFunction(){
+			fruits[fruits.length] = "lemon";
+			document.getElementById("demo").innerHTML = fruits;
+		}
+	</script>
+
+</body>
+</html>

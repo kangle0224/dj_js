@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arr14</title>
+</head>
+<body>
+	<h1>填写黑洞</h1>
+	<p id="demo"></p>
+	<script>
+		var fruits, text, fLen, i;
+		fruits = ["apple", "banana", "orange"];
+		// document.getElementById("demo").innerHTML = fruits;
+
+		fruits[6] = "lemon";
+		fLen = fruits.length;
+		text = "";
+		for (i = 0;i < fLen; i++) {
+			text += fruits[i] + "<br>";
+		}
+		document.getElementById("demo").innerHTML = text;
+	</script>
+
+</body>
+</html>

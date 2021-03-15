@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arr16</title>
+</head>
+<body>
+	<h1>使用typeof来返回数组类型</h1>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+	<p id="demo3"></p>
+	<script>
+		var fruits = ["apple", "banana", "orange"];
+		document.getElementById("demo1").innerHTML = typeof fruits;
+		document.getElementById("demo2").innerHTML = Array.isArray(fruits);
+		document.getElementById("demo3").innerHTML = fruits instanceof Array;
+	</script>
+
+</body>
+</html>

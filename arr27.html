@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arr27</title>
+</head>
+<body>
+	<h1>splice向数组添加新项</h1>
+	<h1>第一个参数定义了添加新元素的位置，第二个元素定义了删除多少元素，第三个元素定义了添加的元素</h1>
+	<p id="demo"></p>
+	<script>
+		var fruits = ["apple", "banana", "orange"];
+		fruits.splice(2,0, "lemon", "kiwi");
+		document.getElementById('demo').innerHTML = fruits;
+	</script>
+
+</body>
+</html>

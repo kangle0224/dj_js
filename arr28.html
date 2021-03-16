@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arr28</title>
+</head>
+<body>
+	<h1>splice添加元素</h1>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+	<p id="demo3"></p>
+	<script>
+		var fruits = ["apple", "banana", "orange"];
+		document.getElementById('demo1').innerHTML = "原数组" + fruits;
+		var removed = fruits.splice(2,2,"lemon", "kiwi");
+		document.getElementById('demo2').innerHTML = "新数组" + fruits;
+		document.getElementById('demo3').innerHTML = "已删除项" + removed;
+
+
+	</script>
+</body>
+</html>
